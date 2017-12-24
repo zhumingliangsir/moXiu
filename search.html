@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title></title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/public.css">
+ </head>
+ <body>
+     <div id="search" class="clear">
+	     <form>
+			<div class="lf">
+				<input type="text" name="txtTitle">
+				<input type="button" name="btnSearch" value="搜索">
+				<a href="">主题
+					<b></b>
+				</a>
+			</div>
+		 </form>
+		 <ul class="lf">
+			 <li>
+				 热门搜索：
+			 </li>
+			 <li>
+				 <a href="search_1.html" target="_blank">小凡和当当</a>
+			 </li>
+			 <li>
+				 <a href="">锁屏</a>
+			 </li>
+			 <li>
+				 <a href="">密码</a>
+			 </li>
+			 <li>
+				 <a href="">从零开始的异世界生活</a>
+			 </li>
+			 <li>
+				 <a href="">歌词</a>
+			 </li>
+			 <li>
+				 <a href="">王者荣耀</a>
+			 </li>
+			 <li>
+				 <a href="">插画</a>
+			 </li>
+			 <li>
+				 <a href="">TFBOYS</a>
+			 </li>
+			 <li>
+				 <a href="">手写</a>
+			 </li>
+			 <li>
+				 <a href="">城市</a>
+			 </li>
+		 </ul>
+	 </div>
+	 <script src="js/jquery-1.11.3.js"></script>
+	<script>
+		var $input=$("input[name=txtTitle]");
+		var $a=$("#search div a");
+		$input.focus(function () {
+			$a.addClass("hover");
+			$input.addClass("hover")
+		}).blur(function(){
+			if(this.value==""){
+				$a.removeClass("hover");
+				$input.removeClass("hover")
+			}
+		});
+	</script>
+ </body>
+</html>

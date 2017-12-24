@@ -1,0 +1,123 @@
+#all{
+    width:1252px;
+    margin: 0 auto;
+    position:relative;
+}
+/*页面主体部分*/
+#main{
+    width:1252px;
+	background:#E9E5E9;
+	position:absolute;
+	margin-bottom:100px;
+}
+/*顶部大图*/
+#top{
+	width:100%;
+	height:240px;
+	background:url(../images/footer-details/top.jpg) no-repeat center center;
+}
+/*section主体内容部分*/
+#container{
+	width:972px;
+	min-height:500px;
+	background:#FFF;
+	margin:0 auto;
+}
+/*左侧栏*/
+#left_side{
+	background:#F8F2F2;
+	width:19%;
+	height:1200px;
+	border-right:1px solid #C6C6C6;
+}
+#left_side ul{
+	text-align:center;
+	font-size:16px;
+}
+#left_side ul li{
+	height:40px;
+	line-height:40px;
+}
+#left_side ul li a{
+	color:#4f4f4f;
+}
+#left_side li.selected{
+	background:url(../images/footer-details/icon_arr.png) no-repeat 55% 45%;
+}
+#left_side li.selected a{
+	color:#FFF;
+}
+/*右侧具体模块*/
+#specific{
+	width:80%;
+	min-height:500px;
+	box-sizing:border-box;
+	padding:0 40px;
+}
+/*魔秀简介*/
+div.introduce p{
+	color:#1AA8A3;
+	font-size:30px;
+	border-bottom:1px dashed #E5E5E5;
+	height:60px;
+	line-height:60px;
+	padding-left:20px;
+	background:url(../images/footer-details/icon_sq.jpg) no-repeat left center;
+}
+div.introduce article{
+	color:#666666;
+	line-height:26px;
+	margin-top:40px;
+}
+div.introduce article span{
+	font-weight:bold;
+	font-size:22px;
+}
+div.introduce>div a{
+	margin-right:15px;
+}
+div.introduce>div span{
+	font-weight:bold;
+	font-size:14px;
+	color:#666666;
+}
+div.introduce>div h5{
+	font-weight:normal;
+	color:#666666;
+	padding-left:25%;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+/*修改底部浮动框架*/
+#iframe_footer{
+	position:absolute;
+	top:1400px;
+}
+
+/*首页右侧意见反馈固定定位*/
+#fixed{
+	width:55px;
+	height:40px;
+	background-color:#A5DDD3;
+	border-radius:3px;
+	position:fixed;
+	right:0px;
+	top:300px;
+	z-index:1000;
+}
+#fixed a{
+	color:#fff;
+}
+#fixed a b{
+	width:18px;
+	height:40px;
+	background:url(../images/index/talk_icon.png) no-repeat center center;
+	margin-left:2px;
+}
+#fixed a span{
+	width:24px;
+	height:40px;
+	text-align:center;
+	margin:3px 5px;
+}

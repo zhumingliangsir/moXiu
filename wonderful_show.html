@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>魔秀主题，精彩展示！</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/wonderful_show.css">
+ </head>
+ <body>
+ <div id="all">
+   <div class="content">
+    <a href="#" class="pic1">
+     <img src="images/wonderful_show/img1.jpg" />
+    </a>
+    <a href="#" class="pic2">
+     <img src="images/wonderful_show/img2.jpg" />
+    </a>
+    <a href="#" class="pic3">
+     <img src="images/wonderful_show/img3.jpg" />
+    </a>
+    <a href="#" class="pic4">
+     <img src="images/wonderful_show/img4.jpg" />
+    </a>
+    <a href="#" class="pic5">
+     <img src="images/wonderful_show/img5.jpg" />
+    </a>
+    <a href="#" class="pic6">
+     <img src="images/wonderful_show/img6.jpg" />
+    </a>
+    <a href="#" class="pic7">
+     <img src="images/wonderful_show/img7.jpg" />
+    </a>
+    <a href="#" class="pic8">
+     <img src="images/wonderful_show/img8.jpg" />
+    </a>
+    <a href="#" class="pic9">
+     <img src="images/wonderful_show/img9.jpg" />
+    </a>
+    <a href="#" class="pic10">
+     <img src="images/wonderful_show/img10.jpg" />
+    </a>
+    <a href="#" class="pic11">
+     <img src="images/wonderful_show/img11.jpg" />
+    </a>
+    <a href="#" class="pic12">
+     <img src="images/wonderful_show/img12.jpg" />
+    </a>
+    <a href="#" class="pic13">
+     <img src="images/wonderful_show/img13.jpg" />
+    </a>
+    <a href="#" class="pic14">
+     <img src="images/wonderful_show/img14.jpg" />
+    </a>
+    <!--
+    <a href="#" class="pic15">
+     <img src="images/wonderful_show/img15.jpg" />
+    </a>
+    <a href="#" class="pic16">
+     <img src="images/wonderful_show/img16.jpg" />
+    </a>
+    <a href="#" class="pic17">
+     <img src="images/wonderful_show/img17.jpg" />
+    </a>
+    <a href="#" class="pic18">
+     <img src="images/wonderful_show/img18.jpg" />
+    </a>
+    <a href="#" class="pic19">
+     <img src="images/wonderful_show/img19.jpg" />
+    </a>
+    -->
+   </div>
+   <div id="logo"><a href="index.html"><img src="images/wonderful_show/logo.png"></a></div>
+   <p class="tada">
+    <a href="#">
+       <span>换</span>
+       <span>一</span>
+       <span>批</span>
+    </a>
+   </p>
+ </div>
+ <script src="js/jquery-1.11.3.js"></script>
+ <script>
+  +function(){
+   var timer=setTimeout(function(){
+     $(".content a").addClass("active");
+   },200)
+   $("#all p.tada").click(function(e){
+     e.preventDefault();
+     var timer=setTimeout(function(){
+      $(".content a").removeClass("active");
+     });
+   });
+
+  }();
+ </script>
+ </body>
+</html>

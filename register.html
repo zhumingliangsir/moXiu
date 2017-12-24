@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	<head>
+		<title>用户注册</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/public.css">
+		<link rel="stylesheet" href="css/register.css">
+	</head>
+	<body>
+	  <div id="all">
+          <div id="header_d"></div>
+          <!--页面主体-->
+		<section>
+			<div>
+				<form>
+					<p>以下均为必填项目，请认真填写，魔秀会根据这些信息提供更多更好的服务</p>
+					<div id="Usermail">
+						<span class="write">
+							<i>*</i>
+							注册邮箱：
+						</span>
+						<input type="text" name="u_email" placeholder=" 请输入邮箱" autocomplete="off">
+						<b></b>
+						<span></span>
+					</div>
+					<div id="Username">
+						<span class="write">
+							<i>*</i>
+							用户名：
+						</span>
+						<input type="text" name="u_name" placeholder=" 6~30位数字、字母、下划线" autocomplete="off">
+						<b></b>
+						<span></span>
+					</div>
+					<div id="Userpwd">
+						<span class="write">
+							<i>*</i>
+							设置密码：
+						</span>
+						<input type="password" name="u_pwd" placeholder=" 6~20位数字、字母、下划线" autocomplete="off">
+						<b></b>
+						<span></span>
+					</div>
+					<div id="Userpwdnext">
+						<span class="write">
+							<i>*</i>
+							确认密码：
+						</span>
+						<input type="password" name="u_pwd1" placeholder=" 请确认密码" autocomplete="off">
+						<b></b>
+						<span></span>
+					</div>
+					<!----------------------->
+					<div id="auto_login">
+						<input type="checkbox" checked name="chk">
+						<a href="#" class="special">《魔秀网服务协议》</a>
+					</div>
+					<div id="login_btn" class="clear">
+						<input type="button" value="加入会员" id="btn">
+						<span>已有账号，请&nbsp;<a href="login.html">登录</a>&nbsp;或使用</span>
+						<a href="">
+							<span class="qq"></span>
+						</a>
+						<a href="">
+							<span class="chat"></span>
+						</a>
+					</div>
+				</form>
+			</div>
+		</section>
+          <div id="footer_d"></div>
+	  </div>
+      <script src="js/jquery-1.11.3.js"></script>
+      <script src="js/header_footer.js"></script>
+	  <script src="js/register.js"></script>
+	</body>
+</html>

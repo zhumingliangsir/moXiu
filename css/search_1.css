@@ -1,0 +1,60 @@
+#all{
+    width:1252px;
+    margin: 0 auto;
+}
+/*section部分*/
+/*搜索结果*/
+#main{
+	padding-left:18px;
+}
+#main p{
+	margin-top:20px;
+	font-size:18px;
+	height:30px;
+	line-height:30px;
+	font-weight:bold;
+	color:#666695;
+	padding-left:50px;
+	background:url(../images/jingpin-subject/icons.png) no-repeat 22px -85px;
+}
+/*图片列表*/
+ul.subject_box li div.shilder_box>span{
+	width:176px;
+	height:286px;
+}
+div.shilder_box>span>a{
+	width:166px;
+	height:276px;
+	line-height:276px;
+	font-size:12px;
+}
+ul.subject_box{
+	margin:20px 20px 0px 20px;
+}
+ul.subject_box li{
+	margin-right:26px;
+}
+/*页码*/
+#page{
+	width:500px;
+	margin:10px auto 0;
+}
+#page li{
+	float:left;
+	margin-right:3px;
+	height:50px;
+	background-color:#F0F1F1;
+	line-height:50px;
+}
+#page li a{
+	display:block;
+	color:#999999;
+	padding:0 22px;
+	font-size:16px;
+}
+#page li:hover{
+	background-color:#31C0A4;
+}
+#page li:hover a{
+	color:#fff;
+}

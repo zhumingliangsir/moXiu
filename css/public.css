@@ -1,0 +1,226 @@
+
+/*通用样式*/
+body{
+	font:12px Arial,"microsoft yahei",Helvetica,sans-serif;
+	margin:0;
+}
+ul,p,h1,h2,h3,h4,h5,h6,ol,dl,dd,pre{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+img{vertical-align:bottom;}
+a{
+	text-decoration:none;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;}
+/*浮动框架*/
+#iframe_header{
+	height:83px;
+	width:100%;
+	border:none;
+}
+#iframe_footer{
+	height:242px;
+	width:100%;
+	border:none;
+}
+/*****************************************************************/
+/*页面顶部header*/
+#header{
+    height:83px;
+    padding:20px;
+    box-sizing:border-box;
+    color:#333;
+}
+
+#header>ul{
+    margin-left:30px;
+}
+
+#header>ul.lf>li{
+    float:left;
+    height:40px;
+    line-height:40px;
+    margin:0 20px;
+    font-size:16px;
+}
+#header>ul.lf>li>a{
+    color:#333;
+    padding:5px;
+}
+#header>ul.lf>li>a:hover,#header>ul.lf>li>a.hover{
+    color:#31c0a4;
+    border-bottom:3px solid #31c0a4;
+}
+/*登录注册*/
+#register{
+    margin-top:15px;
+}
+#register a{
+    padding:0 8px;
+    color:#888;
+}
+#register a.login{
+    padding-left:20px;
+    background:url(../images/index/login-bg.png) no-repeat top left;
+    border-right:1px solid #f3e6d2;
+}
+
+/*******************************************************************/
+/*页面底部footer*/
+/*页面底部*/
+#footer{
+    margin:80px auto 30px;
+}
+/*信息部分*/
+#footer div.information{
+    background-color:#515151;
+    color:#FFF;
+    padding:10px 40px;
+}
+/*左侧*/
+div.information div.lf ul{
+    padding:15px 0;
+}
+#footer div.information div.lf li{
+    float:left;
+    margin-right:10px;
+}
+#footer div.information a{
+    color:#FFF;
+}
+#footer div.information a:hover{
+    text-decoration:underline;
+}
+div.information div.lf p{
+    line-height:20px;
+}
+/*右侧*/
+div.information div.rt ul{
+    margin:20px 0;
+}
+div.information div.rt li{
+    float:left;
+    margin:0 20px;
+}
+div.information div.rt b{
+    display:inline-block;
+    width:48px;
+    height:36px;
+    background:url(../images/index/media-bg.png) no-repeat;
+    margin:0 10px;
+}
+
+div.information div.rt span{
+    line-height:20px;
+}
+div.information ul.media li:nth-child(2)>b{
+    background-position:0px -55px;
+}
+/*备案号部分*/
+#footer p.code{
+    text-align:center;
+    margin:10px 0;
+}
+
+#footer p.code a{
+    color:#93969D;
+}
+
+/********************************************************************/
+#iframe_search{
+	height:80px;
+	width:100%;
+	border:none;
+}
+/*搜索栏*/
+#search{
+	height:65px;
+	background-color:#A5DDD3;
+	box-sizing:border-box;
+	width:100%;
+}
+/*搜索按钮和搜索框*/
+#search div{
+	width:395px;
+	height:40px;
+	box-sizing:border-box;
+	background-color:#12ACA3;
+	border-radius:3px;
+	position:relative;
+	margin:13px 0 13px 20px;
+}
+#search div input:first-child{
+	width:315px;
+	height:40px;
+	box-sizing:border-box;
+	border:2px solid #ddd;
+	border-right:0;
+	outline:none;
+	font-size:16px;
+	padding-left:45px;
+}
+#search div input:first-child:hover,#search div input:first-child.hover{
+	border-color:#12ACA3;
+}
+#search div a{
+	color:#666;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	padding-left:5px;
+}
+#search div a b{
+	display:inline-block;
+	width:0px;
+	height:0px;
+	border:4px solid transparent;
+	border-top-color:#ccc;
+	position:relative;
+	top:3px;
+	left:3px;
+}
+#search div a:hover b,#search div a.hover b{
+	border-top-color:transparent;
+	border-bottom-color:#ccc;
+	top:-3px;
+}
+#search div input:nth-child(2){
+	width:75px;
+	height:35px;
+	color:#fff;
+	background-color:#12ACA3;
+	outline:none;
+	border:none;
+	cursor:pointer;
+	border-radius:3px;
+}
+/*热门搜索*/
+#search ul{
+	margin-left:40px;
+}
+#search ul li{
+	float:left;
+	color:#fff;
+	line-height:70px;
+	font-size:16px;
+}
+#search ul li a{
+	margin-right:15px;
+	color:#fff;
+	line-height:70px;
+	font-size:12px;
+}
+#search ul li a:hover{
+	text-decoration:underline;
+}
+/*********************************************************************/

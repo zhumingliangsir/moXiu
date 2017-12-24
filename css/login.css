@@ -1,0 +1,133 @@
+#all{
+    width:1252px;
+    margin: 0 auto;
+}
+/*浮动框架*/
+iframe{
+	width:100%;
+}
+#iframe_header{
+	height:83px;
+}
+#iframe_footer{
+	height:242px;
+}
+/*页面主体*/
+section{
+	min-height:450px;
+	border-top:2px solid #CACACA;
+	margin:0 30px;
+}
+/*左侧用户登录界面*/
+section div.lf{
+	width:55%;
+	border-right:1px dashed #D3D3D3;
+	margin-top:40px;
+	box-sizing:border-box;
+	padding:20px 20px 0 80px;
+	color:#999999;
+	font-size:14px;
+}
+section div.lf>form>div{
+	margin-top:10px;
+}
+
+.write{
+	display:inline-block;
+	width:80px;
+	text-align:right;
+}
+span.write i{
+	font-style:normal;
+	color:#FFA500;
+}
+#Username input,#Userpwd input{
+	width:300px;
+	height:40px;
+	border:1px solid #D1D1D1;
+	border-top-width:2px;
+	border-left-width:2px;
+}
+#Username>b{
+	display:inline-block;
+	width:140px;
+	text-align:center;
+	font-weight:normal;
+	font-size:12px;
+	background:#FFF5F5;
+	border:1px solid #FFB430;
+	border-radius:5px;
+	color:#FFB430;
+	padding:10px 0;
+}
+
+#auto_login,#register,#login_btn{
+	margin-left:85px;
+	margin-top:15px;
+}
+
+#auto_login>b{
+	display:inline-block;
+	height:12px;
+	width:12px;
+	border:1px solid #8E8F8F;
+	padding:1px;
+	border-radius:2px;
+}
+#auto_login>b>input{
+	border-color:#ddd;
+}
+a.special{
+	color:#FFA500;
+	text-decoration:underline;
+	margin-left:10px;
+}
+a{
+	color:#31C0A4;
+}
+#login_btn input{
+	width:160px;
+	height:45px;
+	background-color:#31c0a4;
+	color:#fff;
+	border-radius:5px;
+	border:0;
+	outline:0;
+	margin-right:5px;
+	cursor:pointer;
+}
+#login_btn>span,#login_btn>input,span.qq,span.chat{
+	float:left;
+}
+#login_btn span.qq{
+	display:block;
+	width:20px;
+	height:20px;
+	background:url(../images/denglu/qq-logo.png) no-repeat;
+	margin:20px 10px 0 10px;
+}
+#login_btn span.chat{
+	display:block;
+	width:24px;
+	height:24px;
+	background:url(../images/denglu/LOGO_24x24.png) no-repeat;
+	margin-top:20px;
+}
+#login_btn>span{
+	display:block;
+	margin:25px 0 0 10px;
+}
+/*右侧二维码*/
+section div.rt img{
+	padding:3px;
+	border:1px solid #31C0A4;
+	border-top-width:2px;
+	border-bottom-width:2px;
+	/*margin:40px 280px 20px 150px;*/
+	margin:35% 10% 4% -85%;
+}
+section div.rt p{
+	color:#9A9A9A;
+	font-size:14px;
+	margin:0 0 0 -90%;
+}

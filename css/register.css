@@ -1,0 +1,118 @@
+#all{
+	width:1252px;
+	margin:0 auto;
+}
+/*浮动框架*/
+iframe{
+	width:100%;
+}
+#iframe_header{
+	height:83px;
+}
+#iframe_footer{
+	height:242px;
+}
+/*页面主体*/
+section{
+	min-height:450px;
+	border-top:2px solid #CACACA;
+	margin:0 30px;
+	background:url(../images/zhuce/register-bg.jpg) no-repeat 80% 30%;
+	box-sizing:border-box;
+	padding:20px 20px 0 80px;
+	color:#999999;
+	font-size:14px;
+}
+
+section div>form>div{
+	margin-top:20px;
+}
+section div p{
+	margin:10px 0 40px;
+}
+
+
+.write{
+	display:inline-block;
+	width:80px;
+	text-align:right;
+}
+span.write i{
+	font-style:normal;
+	color:#FFA500;
+}
+#Username input,#Usermail input,#Userpwd input,#Userpwdnext input{
+	width:310px;
+	height:35px;
+	border:1px solid #D1D1D1;
+	border-top-width:2px;
+	border-left-width:2px;
+}
+#auto_login,#register,#login_btn{
+	margin-left:85px;
+	margin-top:15px;
+}
+
+a{
+	color:#FFB014;
+}
+
+#login_btn input{
+	width:140px;
+	height:35px;
+	background-color:#31c0a4;
+	color:#fff;
+	border-radius:5px;
+	border:0;
+	outline:0;
+	margin-right:5px;
+	cursor:pointer;
+}
+#login_btn>span,#login_btn>input,span.qq,span.chat{
+	float:left;
+}
+#login_btn span.qq{
+	display:block;
+	width:20px;
+	height:20px;
+	background:url(../images/denglu/qq-logo.png) no-repeat;
+	margin:10px 10px 0 10px;
+}
+#login_btn span.chat{
+	display:block;
+	width:24px;
+	height:24px;
+	background:url(../images/denglu/LOGO_24x24.png) no-repeat;
+	margin-top:8px;
+}
+#login_btn>span{
+	display:block;
+	margin:15px 0 0 10px;
+}
+
+section span.error{
+	display:inline-block;
+	/*width:140px;*/
+	text-align:center;
+	font-weight:normal;
+	font-size:12px;
+	background:#FFF5F5;
+	border:1px solid #FFB430;
+	border-radius:5px;
+	color:#FFB430;
+	padding:5px;
+}
+section b{
+	display:inline-block;
+	width:16px;
+	height:16px;
+}
+section b.error{
+	background:url(../images/zhuce/err.png);
+}
+section b.ok{
+	background:url(../images/zhuce/ok.png);
+}
+#btn.disabled{
+	background:#bbb;
+}
